@@ -91,3 +91,30 @@ body {
     margin-top: 7rem;
   }
 }
+
+.carousel-caption {
+  color: #ffffff !important;
+}
+
+.carousel-caption .btn-primary {
+  background-color: #10a9f0;
+  border-color: #00eaff;
+  color: #000000;
+  font-weight: bold;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 10px #00eaff;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-caption .btn-primary:hover {
+  background-color: #00c8d4;
+  border-color: #00c8d4;
+  box-shadow: 0 0 15px #00eaff, 0 0 5px #00eaff inset;
+}
+.carousel-caption {
+  background-color: rgba(58, 58, 56, 0.5);
+  padding: 2rem;
+  border-radius: 1rem;
+}
